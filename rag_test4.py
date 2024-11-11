@@ -66,11 +66,11 @@ def get_vectorstore(text_chunks):
 
 def main():
     st.set_page_config(
-        page_title="Streamlit_remote_RAG",
+        page_title="RAG+PEFT",
         page_icon=":books:"
     )
 
-    st.title("_RAG_test4 :red[Q/A Chat]_ :books:")
+    st.title("동서울대학교 쳇봇:books:")
 
     if "messages" not in st.session_state:
         st.session_state["messages"] = []
