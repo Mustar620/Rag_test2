@@ -70,7 +70,7 @@ def main():
         page_icon=":books:"
     )
 
-    st.title("동서울대학교 쳇봇:books:")
+    st.title("동서울대학교 chat bot:books:")
 
     if "messages" not in st.session_state:
         st.session_state["messages"] = []
